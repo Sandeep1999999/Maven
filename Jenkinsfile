@@ -37,7 +37,7 @@ pipeline
         {
             steps
             {
-                input message: 'Waiting For Managers Approval', submitter: 'sandeep'
+      
                 deploy adapters: [tomcat9(credentialsId: '8546d0ff-3e35-49da-8ec6-a7a42b9c16b4', path: '', url: 'http://172.31.1.2:8080')], contextPath: 'prodapp', war: '**/*.war'
             }
         }
