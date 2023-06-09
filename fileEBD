@@ -1,0 +1,20 @@
+new test job
+for trial 
+testing 
+
+
+node ()[D''[Dbuiltin[D[D-[C[Din)
+
+ {
+  stage ()[Dcd )[D[ont download)
+  {
+   git - ''[Dwww.github.com'
+  }
+
+
+ [A[Cstage ()[B[D[C[A[Dcont build)
+  {
+   sh -mvn package
+  }
+}[D 
+ }
